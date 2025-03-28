@@ -7,6 +7,7 @@ return {
         python = "python3 %",
         javascript = "node %",
         typescript = "tsx %",
+        go = "go run %",
         cpp = "g++ % -o $fileBase.out -std=c++23 && ./$fileBase.out",
         c = "gcc -Wall -Wextra -pedantic -g % -o $fileBase && ./$fileBase",
       },
